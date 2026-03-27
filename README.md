@@ -17,13 +17,22 @@ Data_Dictionary.md: Detailed information file about the features.
 
 AZDIAS_Feature_Summary.csv: Summary of feature attributes.
 
-**Technologies Used**
+## Tools & Technologies ##
 
-Python (NumPy, Pandas, Matplotlib, Seaborn)
+* **Language:** Python
+* **Libraries:** Pandas, Scikit-learn
+* **Methodology:** Supervised Machine Learning, Parameter Optimization
+* **Environment:** Jupyter Notebook
 
-Scikit-learn (SimpleImputer, StandardScaler, PCA, K-Means Clustering, OneHotEncoder)
 
-Jupyter Notebook (Development Environment)
+## The Problem ##
+
+Applying a one-size-fits-all approach to diverse populations results in massive inefficiencies. In a logistics or supply chain context, treating an entire country as a single block results in misallocated inventory and higher transportation costs. The objective of this analysis is to:
+
+1. Process and scale complex demographic data to prepare it for machine learning algorithms.
+2. Apply unsupervised clustering techniques to identify hidden groupings within the population.
+3. Translate those mathematical clusters into actionable operational profiles.
+
 
 **Data Preprocessing & Cleaning Process**
 
@@ -39,6 +48,6 @@ Row-Level Cleaning: Calculated missing values per row and divided the data into 
 
 By mapping the core customer segments against the general population, the model provided clear, actionable guidance for future marketing strategies:
 
-Target Audience (Cluster 5): The primary customers of the mail-order company are mainly older adults who have moderate wealth, tend to be cautious with their finances, and show little interest in complicated financial products. Marketing efforts aimed at acquiring new customers should focus heavily on this demographic.
+Target Audience (Cluster 5): The primary customers of the mail-order company are older adults with moderate wealth who tend to be cautious with their finances and show little interest in complex financial products. Marketing efforts aimed at acquiring new customers should focus heavily on this demographic.
 
 Low-Return Audience (Cluster 0): Younger people who are more actively involved in managing their finances are largely missing from the customer base. It would be wise to avoid spending resources targeting this group, as they are unlikely to respond well to the company’s current approach.
